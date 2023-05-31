@@ -50,7 +50,8 @@ int Menu(int flag, int estudiantesmat[5][7][2])
 	{
 		printf("------------------Bienvenido-------------------\n");
 		printf("Ingrese el numero de la opcion que desea:\n 1.El numero de estudiantes de cada anio en su respectiva carrera \n 2.El anio en que ingreso la mayor cantidad de alumnos a la universidad.\n 3.La Carrera que recibio la mayor cantidad de alumnos en el ultimo anio.\n 4.Anio en que la carrera de Ingenieria de Software recibio la mayor cantidad de alumnos\n 5. Salir del programa\n");
-		result = scanf("%d", &opc);
+		printf("Su opcion es:");
+        result = scanf("%d", &opc);
 		// En caso de que la entrada ingresada no sea correcta, se limpia el buffer de entrada y se le pide que ingrese de nuevo otro dato
 		while (result != 1)
 		{
